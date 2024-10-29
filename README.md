@@ -5,8 +5,9 @@ Servicio que se integra con la API de Amadeus para consultar la disponibilidad d
 
 
 ## Ejemplo desplegado
-- hotels-amadeus-production.up.railway.app/hotels/availability?cityCode=BOG&checkInDate=2024-11-24&checkOutDate=2024-11-25&guests=2&roomQuantity=1
-- hotels-amadeus-production.up.railway.app/hotels/availability/excel?cityCode=BOG&checkInDate=2024-11-24&checkOutDate=2024-11-25&guests=2&roomQuantity=1
+- `hotels-amadeus-production.up.railway.app/hotels/availability?cityCode=BOG&checkInDate=2024-11-24&checkOutDate=2024-11-25&guests=2&roomQuantity=1`
+- `hotels-amadeus-production.up.railway.app/hotels/availability/excel?cityCode=BOG&checkInDate=2024-11-24&checkOutDate=2024-11-25&guests=2&roomQuantity=1`
+- swagger desplegado `https://hotels-amadeus-production.up.railway.app/docs`
 
 ## ✨ Funcionalidades
 - Consulta de disponibilidad de hoteles en tiempo real
