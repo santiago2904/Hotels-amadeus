@@ -85,3 +85,5 @@ npm test
 - Usar siempre variables de entorno para los datos sensibles
 
 ---
+
+# Hotels-amadeus
