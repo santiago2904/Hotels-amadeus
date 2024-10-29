@@ -3,6 +3,11 @@
 ## Descripción
 Servicio que se integra con la API de Amadeus para consultar la disponibilidad de hoteles. Proporciona la información en formato JSON y Excel.
 
+
+## Ejemplo desplegado
+- hotels-amadeus-production.up.railway.app/hotels/availability?cityCode=BOG&checkInDate=2024-11-24&checkOutDate=2024-11-25&guests=2&roomQuantity=1
+- hotels-amadeus-production.up.railway.app/hotels/availability/excel?cityCode=BOG&checkInDate=2024-11-24&checkOutDate=2024-11-25&guests=2&roomQuantity=1
+
 ## ✨ Funcionalidades
 - Consulta de disponibilidad de hoteles en tiempo real
 - Respuestas en formato JSON y Excel
@@ -85,3 +90,5 @@ npm test
 - Usar siempre variables de entorno para los datos sensibles
 
 ---
+
+
